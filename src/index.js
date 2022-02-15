@@ -5,8 +5,7 @@ import Countries from "./Countries";
 
 import "./styles.css";
 
-function App() {
-  let countries = ["France", "USA", "Australia", "Japan"];
+export default function App() {
   return (
     <div className="App">
       <h1>React Loops</h1>
@@ -34,6 +33,7 @@ function App() {
         country name but also the capital city of each country. Display each
         country and capital city in the Countries component
       </p>
+      <Countries />
     </div>
   );
 }
