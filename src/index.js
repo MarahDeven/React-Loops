@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import BalticCountries from "./BalticCountries";
+import Countries from "./Countries";
 
 import "./styles.css";
 
@@ -15,6 +17,7 @@ function App() {
         countries (Estonia, Latvia, Lithuania) without using loops or variables.
         Include the component below.
       </p>
+      <BalticCountries />
 
       <h3>Challenge 2</h3>
       <p>
@@ -23,6 +26,7 @@ function App() {
         Countries and list all countries from the Countries component using a
         loop.
       </p>
+      <Countries />
 
       <h3>Challenge 3</h3>
       <p>
